@@ -1,0 +1,68 @@
+@import 'foundation';
+
+.off-canvas-wrap {
+    .dock-menu {
+        text-align: right;
+        display: block;
+        color: white;
+        position: absolute;
+        right: 0;
+        top: rem-calc(20);
+        font-size: rem-calc(40);
+        background: rgba(24,24,24,0.4);
+        padding: rem-calc(4) rem-calc(5) 0 rem-calc(16);
+        border-radius: rem-calc(32) 0 0 rem-calc(32);
+    }
+}
+
+.str-main-content-wrapper {
+    .str-main-content {
+    
+        .str-hero {
+            background: url('http://meghasandesh.net/hale/OrangeJuice_c640.jpg') no-repeat;
+            background-position: 0 0;
+            box-sizing: content-box;
+            width: 100%;
+            margin-bottom: rem-calc(4);
+            min-height: rem-calc(240);
+            
+            @media #{$medium-up} {
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-position: center;
+                padding-bottom: 15%;
+            }
+            
+        }
+        
+        .str-topic-list {
+            @include block-grid(2);
+            
+            @media #{$medium-only} { @include block-grid(3); }
+            @media #{$large-up} { @include block-grid(4); }
+            @media #{$landscape} { @include block-grid(4); }
+            
+            li {
+            
+                clear: both;
+                padding: 0 rem-calc(2) rem-calc(4) rem-calc(2) !important;
+                
+                &:first-of-type {
+                    padding-left: 0;
+                }
+                
+                &:last-of-type {
+                    padding-right: 0;
+                }
+            
+                img {
+                    //max-width: rem-calc(320);
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
