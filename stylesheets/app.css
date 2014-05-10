@@ -9419,20 +9419,27 @@ th.hide-for-touch {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100%;
-  padding-top: 6.25rem;
+  padding-top: 1.25rem;
 }
 /* line 196, ../sass/app.scss */
+.str-main-content-wrapper .str-signup h1 {
+  text-align: center;
+  color: white;
+  padding: 1.5625rem 0 3.125rem 0;
+  font-size: 3.125rem;
+}
+/* line 203, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form {
   padding: 0 1.25rem;
 }
-/* line 200, ../sass/app.scss */
+/* line 207, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form input {
   color: white;
   border-radius: 0.25rem;
   background-image: url("http://meghasandesh.net/hale/signup_bg.jpg");
   border: 0.0625rem solid white;
 }
-/* line 207, ../sass/app.scss */
+/* line 214, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn {
   position: relative;
   display: block;
@@ -9443,19 +9450,19 @@ th.hide-for-touch {
   overflow: hidden;
   height: 3.75rem;
 }
-/* line 219, ../sass/app.scss */
+/* line 226, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn:hover img {
   filter: blur(25px);
   -webkit-filter: blur(25px);
   -moz-filter: blur(25px);
 }
-/* line 225, ../sass/app.scss */
+/* line 232, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn:hover:before {
   content: " ";
   position: absolute;
   background: rgba(24, 24, 24, 0.15);
 }
-/* line 233, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn:before {
   content: " ";
   position: absolute;
@@ -9466,7 +9473,7 @@ th.hide-for-touch {
   left: 0;
   top: 0;
 }
-/* line 244, ../sass/app.scss */
+/* line 251, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn span {
   position: absolute;
   z-index: 5;
@@ -9476,7 +9483,7 @@ th.hide-for-touch {
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
 }
-/* line 254, ../sass/app.scss */
+/* line 261, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .sign-up-btn img {
   filter: blur(15px);
   -webkit-filter: blur(15px);
@@ -9487,29 +9494,29 @@ th.hide-for-touch {
   left: 0;
   top: -38.75rem;
 }
-/* line 266, ../sass/app.scss */
+/* line 273, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .fb-sign-up-btn {
   background: #3b5998;
   color: white;
   font-size: 1.25rem;
   border-radius: 0.25rem;
   display: block;
-  margin-top: 6.25rem;
+  margin-top: 3.125rem;
   text-align: center;
   padding: 0.9375rem 0;
 }
-/* line 276, ../sass/app.scss */
+/* line 283, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .fb-sign-up-btn span {
   display: inline-block;
   position: relative;
 }
-/* line 281, ../sass/app.scss */
+/* line 288, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .fb-sign-up-btn .icon-facebook {
   margin-right: 0.625rem;
   text-align: left;
   font-size: 1.5rem;
 }
-/* line 287, ../sass/app.scss */
+/* line 294, ../sass/app.scss */
 .str-main-content-wrapper .str-signup form .fb-sign-up-btn .signup-text {
   top: -0.125rem;
 }
