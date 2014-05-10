@@ -1,0 +1,47 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Hale</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
+    <link rel="stylesheet" href="stylesheets/icomoon.css">
+</head>
+<body>
+    <section class="str-main-content-wrapper main-section">
+        <section class="str-signup">
+            <form>
+                <input type="email" value="email">
+                <input type="password" value="password">
+                <a href="#" class="sign-up-btn">
+                    <span>Sign Up</span>
+                    <img src="http://meghasandesh.net/hale/signup_bg.jpg">
+                </a>
+                <a href="#" class="fb-sign-up-btn">
+                    <span class="icon-facebook"></span>
+                    <span class="signup-text">Sign up with Facebook</span>
+                </a>
+            </form>
+        </section>
+    </section>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+        $(document).ready(function() {
+            $('input').focus(function(){
+                $(this).attr('value','');
+            });
+            
+            $('input').blur(function() {
+                $(this).attr('value', function() {
+                    return $(this).attr('type');
+                });
+            });
+        });
+    </script>    
+</body>
+</html>

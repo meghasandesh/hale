@@ -8962,8 +8962,9 @@ th.hide-for-touch {
 .off-canvas-wrap .exit-off-canvas {
   box-shadow: none;
 }
-/* line 46, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-hero {
+
+/* line 47, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-hero {
   background: url("http://meghasandesh.net/hale/OrangeJuice_c640.jpg") no-repeat;
   background-position: 0 0;
   box-sizing: content-box;
@@ -8972,8 +8973,8 @@ th.hide-for-touch {
   min-height: 15rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 46, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-hero {
+  /* line 47, ../sass/app.scss */
+  .str-main-content-wrapper .str-main-content .str-hero {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8982,15 +8983,15 @@ th.hide-for-touch {
     padding-bottom: 15%;
   }
 }
-/* line 64, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-content-hero {
+/* line 65, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-content-hero {
   max-height: 25rem;
   position: relative;
   width: 100%;
   overflow: hidden;
 }
-/* line 70, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper {
+/* line 71, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper {
   background-image: url("http://meghasandesh.net/hale/herbs-2.jpg");
   /* fallback */
   background-image: url("http://meghasandesh.net/hale/herbs-2.jpg");
@@ -9002,13 +9003,13 @@ th.hide-for-touch {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 70, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper {
+  /* line 71, ../sass/app.scss */
+  .str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper {
     background-size: contain;
   }
 }
-/* line 84, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper:before {
+/* line 85, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-content-hero .str-content-hero-wrapper:before {
   content: " ";
   position: absolute;
   z-index: 2;
@@ -9019,260 +9020,260 @@ th.hide-for-touch {
   width: 100%;
   height: 25rem;
 }
-/* line 97, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-content-hero h1 {
+/* line 98, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-content-hero h1 {
   position: absolute;
   bottom: 2%;
   left: 1.25rem;
   z-index: 6;
 }
-/* line 105, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list {
+/* line 106, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list {
   display: block;
   padding: 0;
   margin: 0;
   *zoom: 1;
 }
 /* line 145, ../sass/foundation/components/_global.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:before, .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+.str-main-content-wrapper .str-main-content .str-topic-list:before, .str-main-content-wrapper .str-main-content .str-topic-list:after {
   content: " ";
   display: table;
 }
 /* line 146, ../sass/foundation/components/_global.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+.str-main-content-wrapper .str-main-content .str-topic-list:after {
   clear: both;
 }
 /* line 49, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+.str-main-content-wrapper .str-main-content .str-topic-list > li {
   display: block;
   height: auto;
   float: left;
   padding: 0 0.9375rem 1.875rem;
 }
 /* line 60, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+.str-main-content-wrapper .str-main-content .str-topic-list > li {
   width: 50%;
   padding: 0 0.9375rem 1.875rem;
   list-style: none;
 }
 /* line 67, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
+.str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
   clear: none;
 }
 /* line 68, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(2n+1) {
+.str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(2n+1) {
   clear: both;
 }
 /* line 83, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(2n+1) {
+.str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(2n+1) {
   padding-left: 0rem;
   padding-right: 0.9375rem;
 }
 /* line 83, ../sass/foundation/components/_block-grid.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(2n) {
+.str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(2n) {
   padding-left: 0.9375rem;
   padding-right: 0rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 105, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list {
+  /* line 106, ../sass/app.scss */
+  .str-main-content-wrapper .str-main-content .str-topic-list {
     display: block;
     padding: 0;
     margin: 0;
     *zoom: 1;
   }
   /* line 145, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:before, .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:before, .str-main-content-wrapper .str-main-content .str-topic-list:after {
     content: " ";
     display: table;
   }
   /* line 146, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:after {
     clear: both;
   }
   /* line 49, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     display: block;
     height: auto;
     float: left;
     padding: 0 0.9375rem 1.875rem;
   }
   /* line 60, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     width: 33.33333%;
     padding: 0 0.9375rem 1.875rem;
     list-style: none;
   }
   /* line 67, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
     clear: none;
   }
   /* line 68, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(3n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(3n+1) {
     clear: both;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n+1) {
     padding-left: 0rem;
     padding-right: 1.25rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n+2) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n+2) {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(3n) {
     padding-left: 1.25rem;
     padding-right: 0rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 105, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list {
+  /* line 106, ../sass/app.scss */
+  .str-main-content-wrapper .str-main-content .str-topic-list {
     display: block;
     padding: 0;
     margin: 0;
     *zoom: 1;
   }
   /* line 145, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:before, .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:before, .str-main-content-wrapper .str-main-content .str-topic-list:after {
     content: " ";
     display: table;
   }
   /* line 146, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:after {
     clear: both;
   }
   /* line 49, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     display: block;
     height: auto;
     float: left;
     padding: 0 0.9375rem 1.875rem;
   }
   /* line 60, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     width: 25%;
     padding: 0 0.9375rem 1.875rem;
     list-style: none;
   }
   /* line 67, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
     clear: none;
   }
   /* line 68, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(4n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(4n+1) {
     clear: both;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+1) {
     padding-left: 0rem;
     padding-right: 1.40625rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+2) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+2) {
     padding-left: 0.46875rem;
     padding-right: 0.9375rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+3) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+3) {
     padding-left: 0.9375rem;
     padding-right: 0.46875rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n) {
     padding-left: 1.40625rem;
     padding-right: 0rem;
   }
 }
 @media only screen and (orientation: landscape) {
-  /* line 105, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list {
+  /* line 106, ../sass/app.scss */
+  .str-main-content-wrapper .str-main-content .str-topic-list {
     display: block;
     padding: 0;
     margin: 0;
     *zoom: 1;
   }
   /* line 145, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:before, .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:before, .str-main-content-wrapper .str-main-content .str-topic-list:after {
     content: " ";
     display: table;
   }
   /* line 146, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list:after {
+  .str-main-content-wrapper .str-main-content .str-topic-list:after {
     clear: both;
   }
   /* line 49, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     display: block;
     height: auto;
     float: left;
     padding: 0 0.9375rem 1.875rem;
   }
   /* line 60, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li {
     width: 25%;
     padding: 0 0.9375rem 1.875rem;
     list-style: none;
   }
   /* line 67, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(n) {
     clear: none;
   }
   /* line 68, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(4n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-of-type(4n+1) {
     clear: both;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+1) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+1) {
     padding-left: 0rem;
     padding-right: 1.40625rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+2) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+2) {
     padding-left: 0.46875rem;
     padding-right: 0.9375rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+3) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n+3) {
     padding-left: 0.9375rem;
     padding-right: 0.46875rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n) {
+  .str-main-content-wrapper .str-main-content .str-topic-list > li:nth-child(4n) {
     padding-left: 1.40625rem;
     padding-right: 0rem;
   }
 }
-/* line 112, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li {
+/* line 113, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li {
   clear: both;
   padding: 0 0.125rem 0.25rem 0.125rem !important;
   position: relative;
 }
-/* line 118, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li:first-of-type {
+/* line 119, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li:first-of-type {
   padding-left: 0;
 }
-/* line 122, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li:last-of-type {
+/* line 123, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li:last-of-type {
   padding-right: 0;
 }
-/* line 126, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li img {
+/* line 127, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li img {
   width: 100%;
 }
-/* line 130, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li .tile-title {
+/* line 131, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li .tile-title {
   position: absolute;
   bottom: 0;
   z-index: 2;
   height: 4rem;
   overflow: hidden;
 }
-/* line 137, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li .tile-title:before {
+/* line 138, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li .tile-title:before {
   background: linear-gradient(rgba(24, 24, 24, 0), rgba(24, 24, 24, 0.5));
   width: 100%;
   height: 100%;
@@ -9283,16 +9284,16 @@ th.hide-for-touch {
   min-height: 4rem;
   margin-top: -0.25rem;
 }
-/* line 149, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li .tile-title img {
+/* line 150, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li .tile-title img {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   filter: blur(5px);
   margin-top: -15rem;
   width: 100%;
 }
-/* line 158, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-main-content .str-topic-list li .tile-title .title-text {
+/* line 159, ../sass/app.scss */
+.str-main-content-wrapper .str-main-content .str-topic-list li .tile-title .title-text {
   color: white;
   top: 0.375rem;
   left: 0.625rem;
@@ -9301,114 +9302,214 @@ th.hide-for-touch {
   z-index: 5;
   font-weight: 200;
 }
-/* line 172, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-article-wrapper {
+/* line 173, ../sass/app.scss */
+.str-main-content-wrapper .str-article-wrapper {
   padding: 1.25rem;
 }
-/* line 175, ../sass/app.scss */
-.off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections {
+/* line 176, ../sass/app.scss */
+.str-main-content-wrapper .str-article-wrapper .str-article-sections {
   list-style-type: none;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 48em) {
-  /* line 175, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections {
+  /* line 176, ../sass/app.scss */
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections {
     display: block;
     padding: 0;
     margin: 0;
     *zoom: 1;
   }
   /* line 145, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:before, .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections:before, .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
     content: " ";
     display: table;
   }
   /* line 146, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
     clear: both;
   }
   /* line 49, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
     display: block;
     height: auto;
     float: left;
     padding: 0 0.9375rem 1.875rem;
   }
   /* line 60, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
     width: 50%;
     padding: 0 0.9375rem 1.875rem;
     list-style: none;
   }
   /* line 67, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(n) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(n) {
     clear: none;
   }
   /* line 68, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(2n+1) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(2n+1) {
     clear: both;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(2n+1) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(2n+1) {
     padding-left: 0rem;
     padding-right: 0.9375rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(2n) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(2n) {
     padding-left: 0.9375rem;
     padding-right: 0rem;
   }
 }
 @media only screen and (min-width: 48.063em) {
-  /* line 175, ../sass/app.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections {
+  /* line 176, ../sass/app.scss */
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections {
     display: block;
     padding: 0;
     margin: 0;
     *zoom: 1;
   }
   /* line 145, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:before, .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections:before, .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
     content: " ";
     display: table;
   }
   /* line 146, ../sass/foundation/components/_global.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections:after {
     clear: both;
   }
   /* line 49, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
     display: block;
     height: auto;
     float: left;
     padding: 0 0.9375rem 1.875rem;
   }
   /* line 60, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li {
     width: 33.33333%;
     padding: 0 0.9375rem 1.875rem;
     list-style: none;
   }
   /* line 67, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(n) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(n) {
     clear: none;
   }
   /* line 68, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(3n+1) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-of-type(3n+1) {
     clear: both;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n+1) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n+1) {
     padding-left: 0rem;
     padding-right: 1.25rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n+2) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n+2) {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
   }
   /* line 83, ../sass/foundation/components/_block-grid.scss */
-  .off-canvas-wrap .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n) {
+  .str-main-content-wrapper .str-article-wrapper .str-article-sections > li:nth-child(3n) {
     padding-left: 1.25rem;
     padding-right: 0rem;
   }
+}
+/* line 189, ../sass/app.scss */
+.str-main-content-wrapper .str-signup {
+  background-image: url("http://meghasandesh.net/hale/signup_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100%;
+  padding-top: 6.25rem;
+}
+/* line 196, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form {
+  padding: 0 1.25rem;
+}
+/* line 200, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form input {
+  color: white;
+  border-radius: 0.25rem;
+  background-image: url("http://meghasandesh.net/hale/signup_bg.jpg");
+  border: 0.0625rem solid white;
+}
+/* line 207, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn {
+  position: relative;
+  display: block;
+  padding: 0.625rem 0;
+  border: 0.0625rem solid white;
+  color: white;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  height: 3.75rem;
+}
+/* line 219, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn:hover img {
+  filter: blur(25px);
+  -webkit-filter: blur(25px);
+  -moz-filter: blur(25px);
+}
+/* line 225, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn:hover:before {
+  content: " ";
+  position: absolute;
+  background: rgba(24, 24, 24, 0.15);
+}
+/* line 233, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn:before {
+  content: " ";
+  position: absolute;
+  background: rgba(24, 24, 24, 0.3);
+  z-index: 4;
+  width: 100%;
+  height: 3.75rem;
+  left: 0;
+  top: 0;
+}
+/* line 244, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn span {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+}
+/* line 254, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .sign-up-btn img {
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  overflow: hidden;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  top: -38.75rem;
+}
+/* line 266, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .fb-sign-up-btn {
+  background: #3b5998;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  display: block;
+  margin-top: 6.25rem;
+  text-align: center;
+  padding: 0.9375rem 0;
+}
+/* line 276, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .fb-sign-up-btn span {
+  display: inline-block;
+  position: relative;
+}
+/* line 281, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .fb-sign-up-btn .icon-facebook {
+  margin-right: 0.625rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+/* line 287, ../sass/app.scss */
+.str-main-content-wrapper .str-signup form .fb-sign-up-btn .signup-text {
+  top: -0.125rem;
 }
